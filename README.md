@@ -6,13 +6,28 @@
 This repository contains information and code to reproduce the results presented in the
 article
 ```bibtex
-TODO
+@online{ranocha2022error,
+  title={On error-based step size control for discontinuous {G}alerkin methods
+         for compressible fluid dynamics},
+  author={Ranocha, Hendrik and Winters, Andrew R and Castro, Hugo Guillermo
+          and Dalcin, Lisandro and Gassner, Gregor J and Parsani, Matteo},
+  year={2022}
+}
 ```
 
 If you find these results useful, please cite the article mentioned above. If you
 use the implementations provided here, please **also** cite this repository as
 ```bibtex
-TODO
+@misc{ranocha2022errorRepro,
+  title={Reproducibility repository for
+         "{O}n error-based step size control for discontinuous {G}alerkin methods
+         for compressible fluid dynamics"},
+  author={Ranocha, Hendrik and Winters, Andrew R and Castro, Hugo Guillermo
+          and Dalcin, Lisandro and Gassner, Gregor J and Parsani, Matteo},
+  year={2022},
+  howpublished={\url{https://github.com/trixi-framework/paper-2022-stepsize_control}},
+  doi={TODO}
+}
 ```
 
 
@@ -21,12 +36,12 @@ TODO
 We study temporal step size control of explicit Runge-Kutta methods for
 compressible computational fluid dynamics (CFD), including the Navier-Stokes
 equations and hyperbolic systems of conservation laws such as the Euler and
-magnetohydrodynamics equations. We demonstrate that error-based approaches
+ideal magnetohydrodynamics equations. We demonstrate that error-based approaches
 are convenient in a wide range of applications and compare them to more classical
 step size control based on a Courant-Friedrichs-Lewy (CFL) number. Our numerical
 examples show that error-based step size control is easy to use, robust, and efficient,
 e.g., for (initial) transient periods, complex geometries, nonlinear shock
-capturing approaches, and schemes based on nonlinear entropy projections.
+capturing approaches, and schemes that use nonlinear entropy projections.
 We demonstrate these properties for problems ranging from well-understood
 academic test cases to industrially relevant large-scale computations with two
 disjoint code bases, the open source Julia packages Trixi.jl with OrdinariDyffEq.jl
@@ -51,6 +66,7 @@ The numerical experiments were carried out using Julia v1.7.
 - [Andrew Winters](https://liu.se/en/employee/andwi94) (Linköping University, Sweden)
 - Hugo Guillermo Castro (KAUST, Saudi Arabia)
 - Lisandro Dalcin (KAUST, Saudi Arabia)
+- Gregor J. Gassner (University of Cologne, Germany)
 - Matteo Parsani (KAUST, Saudi Arabia)
 
 
