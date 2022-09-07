@@ -10,7 +10,8 @@ article
   title={On error-based step size control for discontinuous {G}alerkin methods
          for compressible fluid dynamics},
   author={Ranocha, Hendrik and Winters, Andrew R and Castro, Hugo Guillermo
-          and Dalcin, Lisandro and Gassner, Gregor J and Parsani, Matteo},
+          and Dalcin, Lisandro and Schlottke-Lakemper, Michael and
+          Gassner, Gregor J and Parsani, Matteo},
   year={2022}
 }
 ```
@@ -23,7 +24,8 @@ use the implementations provided here, please **also** cite this repository as
          "{O}n error-based step size control for discontinuous {G}alerkin methods
          for compressible fluid dynamics"},
   author={Ranocha, Hendrik and Winters, Andrew R and Castro, Hugo Guillermo
-          and Dalcin, Lisandro and Gassner, Gregor J and Parsani, Matteo},
+          and Dalcin, Lisandro and Schlottke-Lakemper, Michael and
+          Gassner, Gregor J and Parsani, Matteo},
   year={2022},
   howpublished={\url{https://github.com/trixi-framework/paper-2022-stepsize_control}},
   doi={TODO}
@@ -66,6 +68,7 @@ The numerical experiments were carried out using Julia v1.7.
 - [Andrew Winters](https://liu.se/en/employee/andwi94) (Linköping University, Sweden)
 - Hugo Guillermo Castro (KAUST, Saudi Arabia)
 - Lisandro Dalcin (KAUST, Saudi Arabia)
+- Michael Schlottke-Lakemper (University of Stuttgart, Germany)
 - Gregor J. Gassner (University of Cologne, Germany)
 - Matteo Parsani (KAUST, Saudi Arabia)
 
