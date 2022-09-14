@@ -37,8 +37,8 @@ use the implementations provided here, please **also** cite this repository as
 
 We study temporal step size control of explicit Runge-Kutta methods for
 compressible computational fluid dynamics (CFD), including the Navier-Stokes
-equations and hyperbolic systems of conservation laws such as the Euler and
-ideal magnetohydrodynamics equations. We demonstrate that error-based approaches
+equations and hyperbolic systems of conservation laws such as the Euler equations.
+We demonstrate that error-based approaches
 are convenient in a wide range of applications and compare them to more classical
 step size control based on a Courant-Friedrichs-Lewy (CFL) number. Our numerical
 examples show that error-based step size control is easy to use, robust, and efficient,
@@ -46,7 +46,7 @@ e.g., for (initial) transient periods, complex geometries, nonlinear shock
 capturing approaches, and schemes that use nonlinear entropy projections.
 We demonstrate these properties for problems ranging from well-understood
 academic test cases to industrially relevant large-scale computations with two
-disjoint code bases, the open source Julia packages Trixi.jl with OrdinariDyffEq.jl
+disjoint code bases, the open source Julia packages Trixi.jl with OrdinaryDiffEq.jl
 and the C/Fortran code SSDC based on PETSc.
 
 ## Numerical experiments
