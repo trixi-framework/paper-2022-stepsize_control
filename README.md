@@ -1,7 +1,7 @@
 # On error-based step size control for discontinuous Galerkin methods for compressible fluid dynamics
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/TODO.svg)](https://doi.org/TODO)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7078946.svg)](https://doi.org/10.5281/zenodo.7078946)
 
 This repository contains information and code to reproduce the results presented in the
 article
@@ -28,7 +28,7 @@ use the implementations provided here, please **also** cite this repository as
           Gassner, Gregor J and Parsani, Matteo},
   year={2022},
   howpublished={\url{https://github.com/trixi-framework/paper-2022-stepsize_control}},
-  doi={TODO}
+  doi={10.5281/zenodo.7078946}
 }
 ```
 
