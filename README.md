@@ -12,7 +12,12 @@ article
   author={Ranocha, Hendrik and Winters, Andrew R and Castro, Hugo Guillermo
           and Dalcin, Lisandro and Schlottke-Lakemper, Michael and
           Gassner, Gregor J and Parsani, Matteo},
-  year={2022}
+  year={2022},
+  month={09},
+  eprint={2209.07037},
+  eprinttype={arxiv},
+  eprintclass={math.NA},
+  doi={10.48550/arXiv.2209.07037}
 }
 ```
 
