@@ -6,18 +6,19 @@
 This repository contains information and code to reproduce the results presented in the
 article
 ```bibtex
-@online{ranocha2022error,
+@article{ranocha2023error,
   title={On error-based step size control for discontinuous {G}alerkin methods
          for compressible fluid dynamics},
   author={Ranocha, Hendrik and Winters, Andrew R and Castro, Hugo Guillermo
           and Dalcin, Lisandro and Schlottke-Lakemper, Michael and
           Gassner, Gregor J and Parsani, Matteo},
-  year={2022},
-  month={09},
+  journal={Communications on Applied Mathematics and Computation},
+  year={2023},
+  month={05},
+  doi={10.1007/s42967-023-00264-y},
   eprint={2209.07037},
   eprinttype={arxiv},
-  eprintclass={math.NA},
-  doi={10.48550/arXiv.2209.07037}
+  eprintclass={math.NA}
 }
 ```
 
